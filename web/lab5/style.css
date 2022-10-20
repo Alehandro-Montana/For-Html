@@ -1,0 +1,32 @@
+body{
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+    
+}
+.p1{
+    color:fuchsia;
+}
+#p2{
+    font-style: italic;
+}
+h1{
+    color: yellow;
+    font-size: 10in;
+}
+.p3{
+    color: pink;
+}
+.first{
+    text-indent: 10%;
+    font-size: 110%;
+    
+}
+.second{
+    font-style: oblique;
+    font-size: 20pt;
+    color: green;
+    text-transform: uppercase;
+}
+.third{
+    text-align: center;
+    line-height: 20mm;
+}
