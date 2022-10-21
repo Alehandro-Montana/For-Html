@@ -1,0 +1,21 @@
+ul{
+    list-style-image: url("https://ih1.redbubble.net/image.1887445781.8977/flat,128x128,075,t.jpg");
+    list-style-position: inside;
+    color: fuchsia;
+}
+a{
+    text-decoration: none;
+}
+a:link:hover{
+    color: #000d00;
+    text-decoration:line-through;
+}
+.a2{
+    cursor: progress;
+   }
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pythagoras_in_the_Roman_Forum%2C_Colosseum.jpg/274px-Pythagoras_in_the_Roman_Forum%2C_Colosseum.jpg);
+    background-position:90% ;
+    background-repeat: no-repeat;
+}
+
