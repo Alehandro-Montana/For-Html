@@ -1,0 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.d1{
+    width: 200px;
+    height: 200px;
+    float: left;
+    
+    
+    shape-outside: circle(50%);
+    clip-path: polygon(76% 14%, 76% 75%, 50% 89%, 24% 77%, 21% 14%);
+}
+.trizub{
+    
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: relative;
+    left: 50px;
+    
+    
+    background: -webkit-linear-gradient(top, #2b0cdd 0%,#253bb9 50%,#eed920 50%,#fceb00 100%);
+    
+    clip-path: polygon(23% 71%, 23% 25%, 29% 30%, 32% 39%, 33% 45%, 33% 58%, 32% 64%, 42% 63%, 42% 49%, 41% 38%, 41% 28%, 47% 16%, 52% 25%, 54% 37%, 53% 49%, 53% 62%, 64% 63%, 62% 50%, 62% 40%, 65% 33%, 69% 27%, 72% 25%, 73% 31%, 73% 40%, 73% 72%, 53% 72%, 48% 82%, 42% 72%);
+}
+.israel {
+   
+    float: left;
+    width: 0; 
+    height: 0; 
+    left: 100px;
+    
+    top: 40px;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 110px solid #003bfc;
+    position: relative;
+    }
+    .israel:after {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    top: 30px; 
+    left: -60px;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 110px solid #003bfc;
+    }
+.moon{
+    width: 100px; 
+    float: left;
+    height: 100px; 
+    position: relative;
+    left: 220px;
+    margin-top: 50px;
+    
+    border-radius: 50%;
+    rotate: 130deg;
+    box-shadow: 15px 15px 0 0 #f30909;
+}
+.star {
+    width: 25px; 
+    height: 25px; 
+    float: left;
+    background: #f70e0e;
+    position: absolute;
+    left: 720px;
+    top: 370px;
+    
+    transform: rotate(35deg);
+    }
+    .star:before {
+    content: "";
+    height: 25px; 
+    width: 25px;
+    background: inherit;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    transform: rotate(140deg);
+    }
+.flag {
+width: 120px; 
+height: 120px;
+position: absolute;
+float: left;
+left: 870px;
+top: 320px;
+
+background: rgb(212, 10, 10);
+clip-path: polygon(0 0, 100% 0, 38% 14%, 38% 39%, 15% 39%, 15% 63%, 38% 63%, 38% 86%, 63% 86%, 63% 63%, 86% 63%, 86% 38%, 62% 38%, 62% 14%, 38% 14%, 100% 0, 100% 100%, 0% 100%, 0 63%, 0 43%);
+
+    }
+    
+
+p{
+    margin-bottom: 30px;
+}
+h3{
+margin-left: 220px;
+   margin-bottom: 4px;
+}
+ul{
+  
+   position: absolute;
+   left: 0px;
+   top: 470px;
+}
+li{
+    display: inline;
+
+    margin-left: 50px;
+ 
+}
+
+
+/*.d18 {
+    position: relative;
+    width: 100px; 
+    height: 80px;
+    shape-outside: circle();
+    }
+    .d18:before, 
+    .d18:after {
+    content: "";
+    position: absolute; 
+    left: 50px; 
+    top: 0;
+    width: 50px; 
+    height: 80px;
+    background: #d11c32;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg); 
+    transform-origin: 0 100%;
+    }
+    .d18:after {
+    left: 0;
+    transform: rotate(45deg); 
+    transform-origin: 100% 100%;
+    }
+*/
