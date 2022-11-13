@@ -1,20 +1,4 @@
-/*function Check(){
-    if(document.testform.Pwd.value==document.testform.Pwd1.value)
-        alert("Вас зарегистрировали");
-    else
-        alert("Пароли не совпадают");
-}
-*/
 
-/*function Check(){
-    if(document.getElementById("terms").cheked){
-        document.getElementById("message").textContent="Принято";
-    }
-    else{
-        document.getElementById("message").textContent="Не выбрано";
-    }
-
-}*/
 let btnShow =document.querySelector('button');
 const form = document.getElementById('form');
 const username = document.getElementById('username');
